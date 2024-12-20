@@ -1,0 +1,7 @@
+{
+    "emailInput": "//input[contains(@type,'email')]",
+    "nextButton": "//input[contains(@type,'submit')]",
+    "passwordInput": "//input[contains(@type,'password')]",
+    "signInButton": "//input[contains(@type,'submit')]",
+    "yesButton": "//input[contains(@type,'submit')]"
+}
