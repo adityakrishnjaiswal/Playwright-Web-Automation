@@ -1,0 +1,9 @@
+{
+    "newMessageButton": "//button[contains(@aria-label, 'New message')]",
+    "toField": "//input[contains(@aria-label, 'To')]",
+    "subjectField": "//input[contains(@placeholder, 'Add a subject')]",
+    "messageBody": "//div[contains(@role, 'textbox')]",
+    "sendButton": "//button[contains(@aria-label, 'Send')]",
+    "sentConfirmation": "//div[contains(text(), 'Message sent')]"
+  }
+  
