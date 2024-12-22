@@ -1,0 +1,4 @@
+{
+    "unreadCountBadge": "//span[contains(@class, 'unread-count')]"
+  }
+  

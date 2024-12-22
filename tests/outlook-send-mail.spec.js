@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'; // Import Playwright's test and expect
 import { loginToOutlook } from '../helpers/loginHelper.js'; // Ensure the file extension is specified if using ES modules
-import loginXpaths from '../resources/outlook-login.json';// Ensure JSON imports are asserted correctly
-import mailXpaths from '../resources/outlook-send-mail.json'; // Ensure JSON imports are asserted correctly
+import loginXpaths from '../resources/outlook-login.json' assert { type: 'json' };// Ensure JSON imports are asserted correctly
+import mailXpaths from '../resources/outlook-send-mail.json' assert { type: 'json' }; // Ensure JSON imports are asserted correctly
 
 // Test: Logging into Outlook and sending a test email
 test('Outlook Send Email Test', async ({ page }) => {

@@ -1,0 +1,6 @@
+{
+    "searchBox": "//input[@placeholder='Search']",
+    "searchButton": "//button[@aria-label='Search']",
+    "searchResult": "//div[contains(@class, 'search-result')]"
+  }
+  

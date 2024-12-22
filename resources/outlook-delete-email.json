@@ -1,0 +1,6 @@
+{
+    "emailCheckbox": "//div[@role='checkbox']",
+    "deleteButton": "//button[@aria-label='Delete']",
+    "deletedConfirmation": "//span[text()='Item deleted']"
+  }
+  
